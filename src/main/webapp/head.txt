@@ -1,0 +1,78 @@
+﻿
+<style>
+*{
+padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+.box{
+
+  position: relative;
+  top: 0;
+  z-index: 999;
+  width: 100vw;
+  padding: 0 2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.6));
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-bottom:10vh;
+}
+   #logo{
+    color: #000;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    display: block;
+    padding: 0 10px;
+    font-size: 28px;
+    letter-spacing: 2px;
+
+   }
+   .nav{
+      padding: 0 10px;
+      height: 70px;
+      line-height: 70px;
+      position: relative;
+      z-index: 999;
+            display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+   }
+   .Li{
+              position: relative;
+        display: inline;
+        z-index: 100;
+   }
+   .Li  a {
+              width: 130px;
+            display: block;
+            padding: 0 16px;
+            text-align:center;
+            font-size: 18px;
+          }
+          .Li  a:hover{
+                        background: #8f90be;
+            color: #fff;
+          }
+</style>
+<div  class="box">
+<p id="logo">吴小哥手机销售网</p>
+<ul class="nav">
+   <li class="Li"><a href="inputRegisterMess.jsp">注册</a></li>
+    <li class="Li"><a href="login.jsp">登录</a></li>
+   <li class="Li"><a href="lookMobile.jsp">浏览手机</a></li>
+   <li class="Li"><a href="searchMobile.jsp">查询手机</a></li>
+   <li class="Li"><a href="lookShoppingCar.jsp">查看购物车</a></li>
+   <li class="Li"><a href="lookOrderForm.jsp">查看订单</a></li>
+     <li class="Li"><a href="chat/frame.jsp">用户交流</a></li>
+    <li class="Li"><a href="exitServlet">退出</a></li>
+   <li class="Li"><a href="index.jsp">主页</a></li>
+</ul>
+</table></div>
