@@ -1,9 +1,9 @@
 ﻿<%@ page contentType="text/html" %>
 <%@ page pageEncoding="utf-8" %>
 <%@ page import="java.sql.*" %>
-<%@ page import="jakarta.sql.DataSource" %>
-<%@ page import="jakarta.naming.Context" %>
-<%@ page import="jakarta.naming.InitialContext" %>
+<%@ page import="javax.sql.DataSource" %>
+<%@ page import="javax.naming.Context" %>
+<%@ page import="javax.naming.InitialContext" %>
 <HEAD>
     <%@ include file="head.txt" %>
 </HEAD>

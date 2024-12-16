@@ -1,8 +1,8 @@
 ﻿<%@ page contentType="text/html" %>
 <%@ page pageEncoding = "utf-8" %>
-<%@ page import="jakarta.sql.DataSource" %>
-<%@ page import="jakarta.naming.Context" %>
-<%@ page import="jakarta.naming.InitialContext" %>
+<%@ page import="javax.sql.DataSource" %>
+<%@ page import="javax.naming.Context" %>
+<%@ page import="javax.naming.InitialContext" %>
 <%@ page import="java.sql.*" %>
 <jsp:useBean id="loginBean" class="save.data.Login" scope="session"/>
 <HEAD><%@ include file="head.txt" %></HEAD>

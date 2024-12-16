@@ -2,12 +2,12 @@
 <Context>
   <Resource 
     name = "mobileConn"
-    type ="jakarta.sql.DataSource"
+    type ="javax.sql.DataSource"
     driverClassName = "com.mysql.cj.jdbc.Driver"
     url = "jdbc:mysql://127.0.0.1:3306/mobileDatabase?
         &amp;serverTimezone=GMT&amp;characterEncoding=utf-8"
     username ="root"
-    password ="123456"
+    password =""
     maxActive ="15"
     maxIdle ="15"
     minIdle ="1"
