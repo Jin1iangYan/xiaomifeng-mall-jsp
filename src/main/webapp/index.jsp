@@ -7,7 +7,7 @@
     font-family:楷体;font-size:50px;color:green
   }
 </style>
-<HTML><body background =image/background.jpg>
+<HTML><body >
 <center id =ok>
   欢迎光临
 </center>

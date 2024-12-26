@@ -13,7 +13,7 @@
       font-family:宋体;font-size:26;color:blue 
    }
 </style>
-<HTML><body background =image/back.jpg id=tom>
+<HTML><body  id=tom>
 <div align="center">
 <%  if(loginBean==null){
         response.sendRedirect("login.jsp");//重定向到登录页面。

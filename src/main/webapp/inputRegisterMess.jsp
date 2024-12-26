@@ -20,7 +20,7 @@
 </style>
 
 <HTML>
-<body id=ok background=image/back.jpg>
+<body id=ok >
 <div align="center">
     <form action="/servlet-1.0-SNAPSHOT/registerServlet" method="post">
         <table id=ok>

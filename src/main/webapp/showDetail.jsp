@@ -18,7 +18,7 @@
     }
 </style>
 <HTML>
-<body background=image/back.jpg id=tom>
+<body  id=tom>
 <center>
     <% try {
         loginBean = (Login) session.getAttribute("loginBean");
@@ -61,7 +61,7 @@
             out.print("<th>价格");
             out.print("<th>放入购物车<th>");
             out.print("</tr>");
-            String picture = "background.jpg";
+            String picture = "background.png";
             String detailMess = "";
             while (rs.next()) {
                 mobileID = rs.getString(1);

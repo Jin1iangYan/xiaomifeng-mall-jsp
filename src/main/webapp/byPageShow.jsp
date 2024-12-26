@@ -14,7 +14,7 @@
 <jsp:useBean id="dataBean" class="save.data.Record_Bean"
              scope="session"/>
 <HTML>
-<body background=image/back.jpg>
+<body >
 <center>
     <jsp:setProperty name="dataBean" property="pageSize" param="pageSize"/>
     <jsp:setProperty name="dataBean" property="currentPage" param="currentPage"/>

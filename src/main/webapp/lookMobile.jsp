@@ -16,7 +16,7 @@
     }
 </style>
 <HTML>
-<body id=ok background=image/back.jpg>
+<body id=ok >
 <div align="center">
     选择某类手机,分页显示这类手机。
     <% Connection con = null;

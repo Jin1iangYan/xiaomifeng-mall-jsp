@@ -13,7 +13,7 @@
     }
 </style>
 <HTML>
-<body id=tom background=image/back.jpg>
+<body id=tom >
 <div align="center">
     <table id=tom border=1>
         <tr>
