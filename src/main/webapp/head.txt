@@ -101,7 +101,7 @@ a {
 </style>
 
 <div class="box">
-  <p id="logo">手机销售网</p>
+  <p id="logo">严工手机销售网</p>
   <ul class="nav">
     <li class="Li"><a href="inputRegisterMess.jsp">注册</a></li>
     <li class="Li"><a href="login.jsp">登录</a></li>

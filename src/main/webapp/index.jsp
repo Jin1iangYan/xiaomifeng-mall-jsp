@@ -3,7 +3,7 @@
 <html lang="zh">
 <head>
     <%@ include file="head.txt" %>
-    <title>小蜜蜂手机销售网</title>
+    <title>严工手机销售网</title>
     <style>
         body {
             margin: 0;
@@ -34,7 +34,7 @@
 <body>
     <div class="welcome">
         欢迎光临
-        <small>小蜜蜂手机销售网，最专业的手机销售平台</small>
+        <small>严工手机销售网，最专业的手机销售平台</small>
     </div>
 </body>
 </html>
